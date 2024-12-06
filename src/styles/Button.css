@@ -1,0 +1,30 @@
+button {
+    padding: 14px 27px;
+    border-radius: 999px;
+    font-size: 17px;
+    cursor: pointer;
+    background: rgba(26, 36, 19, 0.2);
+    border: 1px solid #c7c7c7;
+    color: #fff;
+}
+
+button.blue {
+    background: rgba(221, 0, 255, 0.2);
+    border: 1px solid rgb(12, 49, 124);
+}
+
+button.red {
+    background: rgba(255, 0, 0, 0.2);
+    border: 1px solid rgb(136, 13, 13);
+}
+
+.board-box{
+    display: flex;
+    gap: 50px;
+}
+
+.container{
+    padding: 50px;
+    border: 1px solid #000;
+    text-align: center;
+}
